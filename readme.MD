@@ -1,9 +1,7 @@
 # Card Matching Game
 This simple card matching game challenges the user to match every pair of cards in a pile
 
-<!-- [Link to project](https://buddy-system.netlify.app/) -->
-
-<!-- ![travelBlog](https://user-images.githubusercontent.com/111996055/193508820-c1a37321-68db-4a3d-a20b-34b1374fc035.png) -->
+[Link to project](https://card-matching-game-cm.netlify.app)
 
 
 ## How It's Made:
