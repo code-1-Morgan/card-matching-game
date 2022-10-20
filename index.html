@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+		<title>Card Matching Game</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Card Matching Game</h1>
+			<button onClick="window.location.reload()">Start Over</button>
+		</header>
+		<main>
+			<!-- all card images from https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_ace.png -->
+			<div class="card one aceCard" value = 1>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_ace.png">
+			</div>
+			<div class="card two aceCard" value = 1>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_ace.png">
+			</div>
+			<div class="card three twoCard" value = 2>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_2.png">
+			</div>
+			<div class="card four twoCard" value = 2>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_2.png">
+			</div>
+			<div class="card five threeCard" value = 3>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_3.png">
+			</div>
+			<div class="card six threeCard" value = 3>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/diamonds_3.png">
+			</div>
+			<div class="card seven fourCard" value = 4>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/spades_4.png">
+			</div>
+			<div class="card eight fourCard" value = 4>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/spades_4.png">
+			</div>
+			<div class="card nine fiveCard" value = 5>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_5.png">
+			</div>
+			<div class="card ten fiveCard" value = 5>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/hearts_5.png">
+			</div>
+			<!-- <div class="card eleven sixCard" value = 6>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_6.png">
+			</div>
+			<div class="card twelve sixCard" value = 6>
+				<img class="backSide" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/backs/png_96_dpi/abstract.png">
+				<img class="frontSide hidden" src="https://tekeye.uk/playing_cards/images/svg_playing_cards/fronts/png_96_dpi/clubs_6.png">
+			</div> -->
+		</main>
+		<h2 id="result">Click some cards!</h2>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,88 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-image: url('https://images.pexels.com/photos/7594382/pexels-photo-7594382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Arvo', serif;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 0rem 20rem;
+}
+
+div{
+  width: calc(20% - 40px);
+  aspect-ratio: 2 / 2;
+  /* background: green; */
+  margin: .75rem;
+}
+
+.frontSide, .backSide{
+  width: 100%;
+  /* margin: auto; */
+}
+
+.hidden{
+  display: none;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(36,80,118, .8);
+}
+
+h1{
+  font-size: 4rem;
+  margin-right: 2.5rem;
+  color: rgb(205,182,139);
+}
+
+button{
+  font-size: 2rem;
+  background: rgb(18, 40, 59);
+  border-radius: 2rem;
+  padding: .5rem 2rem;
+  color: rgb(205,182,139);
+  border: 2px solid rgb(233,108,87);
+}
+
+h2{
+  font-size: 3rem;
+  text-align: center;
+  background: rgb(36,80,118, .8);
+  padding: 1.6rem 30rem;
+  margin: 0rem;
+  color: rgb(233,108,87);
+}
+
+.winnerText{
+  position: absolute;
+  z-index:100;
+  left: 42%;
+  top: 42%;
+  padding: 10rem 10rem;
+  border-radius: 2rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
